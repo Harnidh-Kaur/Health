@@ -1,0 +1,81 @@
+.BMI{
+    text-align:center;
+    padding-top:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.kg{
+    width:40%;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+body{
+    background-image: linear-gradient(to left, blue, lightblue);
+    height:100vh;
+}
+.BMIimg{
+    width:20%;
+    height:20%;
+    margin-top:5%;
+    margin-left:40%;
+}
+.links{
+    color:black;
+    word-spacing: 75px;
+    text-align: center;
+    font-family:monospace;
+}
+.input{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    justify-content: center;
+    margin-left:20%;
+    column-gap:10%;
+}
+.clockdiv{
+    display:flex;
+    color:black;
+    font-size:20px;
+    font-family:monospace;
+    align-items:center;
+    align-content:center;
+    background-color:transparent;
+    width:150px;
+    height:150px;
+    border-radius:70px;
+    box-shadow:0 0 0 8px #EA4C89, inset 0 0 8px #EA4C89;
+    animation:pulse 1s linear infinite;
+}
+@keyframes pulse{
+    0% {box-shadow: 0 0 2px #990F02, inset 0 0 18px #990F02; }
+    50% {box-shadow: 0 0 2px #990F02, inset 0 0 14px #990F02; }
+    100% {box-shadow: 0 0  2px #990F02, inset 0 0 8px #990F02; }
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    align-content:center;
+}
+.container h1{
+    display:inline-flex;
+    align-items:center;
+}
+#countdown{
+    text-align:center;
+    color:black;
+}
+.pulsediv{
+    display:flex;
+    color:black;
+    font-size:20px;
+    font-family:monospace;
+    align-items:center;
+    align-content:center;
+    text-align:center;
+}
+.dark-mode{
+    background-image:linear-gradient(white, black) ;
+}
